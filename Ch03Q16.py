@@ -1,0 +1,51 @@
+import turtle
+
+turtle.pensize(3)
+turtle.setheading(60)
+
+turtle.penup()
+turtle.goto(-200,0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("red")
+turtle.circle(40,steps = 3)
+turtle.end_fill()
+
+turtle.setheading(45)
+turtle.penup()
+turtle.goto(-100,0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("blue")
+turtle.circle(40,steps = 4)
+turtle.end_fill()
+
+turtle.setheading(36)
+turtle.penup()
+turtle.goto(0,0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("purple")
+turtle.circle(40,steps = 5)
+turtle.end_fill()
+
+turtle.setheading(30)
+turtle.penup()
+turtle.goto(100,0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("lightblue")
+turtle.circle(40,steps = 6)
+turtle.end_fill()
+
+turtle.setheading(22.5)
+turtle.penup()
+turtle.goto(200,0)
+turtle.pendown()
+turtle.begin_fill()
+turtle.color("magenta")
+turtle.circle(40,steps = 8)
+turtle.end_fill()
+
+
+turtle.done()
