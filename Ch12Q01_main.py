@@ -1,0 +1,21 @@
+from Ch12Q01_triangle import Triangle
+def main():
+    t = Triangle("orange")
+    t1 = Triangle("purple")
+    t.getColor()
+    t1.getColor()
+    t.getColor()
+    print("enter three sides of triangle")
+    s1 = eval(input("Side1:"))
+    t.sideOne(s1)
+    s2 = eval(input("Side2:"))
+    t.sidetwo(s2)
+    s3 = eval(input("Side3:"))
+    t.sidethree(s3)
+    print("enter color")
+    t.setColor(input())
+    print(t)
+    t.getArea()
+    t.getPerimeter()
+    
+main()
